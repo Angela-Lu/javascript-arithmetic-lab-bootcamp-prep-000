@@ -15,11 +15,11 @@ function subtract(a, b) {
  }
  
  function dec(n) {
-  return n--
+  return --n
  }
  
  function inc(n) {
-  return n++
+  return ++n
  }
  
  function makeInt(n) {
@@ -27,5 +27,5 @@ function subtract(a, b) {
  }
  
  function preserveDecimal(n) {
-   parseFloat(n)
+   return parseFloat(n)
  }
