@@ -1,4 +1,23 @@
-1 + 80 
-60 - 40
-2 * 3.4
-5.0 / 2.5
+function add(a, b) {
+  a += b
+}
+
+function subtract(a, b) {
+  a -= b 
+}
+
+ function multiply(a,b) {
+   a *= b 
+ }
+ 
+ function divide(a, b) {
+   a /= b 
+ }
+ 
+ function dec(n) {
+   n--
+ }
+ 
+ function inc(n) {
+   n++
+ }
